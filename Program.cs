@@ -43,6 +43,11 @@ namespace _3__OOP
 
             Console.WriteLine(myList.Length);
 
+            foreach (var names in myList.Items)
+            {
+                Console.WriteLine(names);
+            }
+
             Console.ReadLine();
         }
     }

@@ -16,6 +16,7 @@ namespace _3__OOP
             items = new T[0];
         }
 
+        //Add Method
         public void Add(T item)
         {
             T[] tempArray= items;
@@ -27,9 +28,12 @@ namespace _3__OOP
             items[items.Length-1] = item;
         }
 
+        //Length Method
         public int Length
         {
             get { return items.Length; }
         }
+
+        public T[] Items { get { return items; } }
     }
 }
